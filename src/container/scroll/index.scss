@@ -1,7 +1,12 @@
 @use '../../style' as s;
 
 main {
-	background: s.color(dark);
-	color: s.color(light);
+	min-height: 5000px;
+	height: 100%;
 	padding: s.space(4);
-} 
+}
+
+button {
+	position: fixed;
+	bottom: 80px;
+}

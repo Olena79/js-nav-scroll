@@ -29,7 +29,7 @@
 //=======================================================================
 
 class Nav {
-    static #HOME_PAGE = 'https://goofle.com'
+    static #HOME_PAGE = 'https://google.com'
 
     static #back = () => {
         return history.back()
