@@ -1,0 +1,63 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+{{!-- <main>
+	<div class="main">
+        <div class="nav">
+            <div class="nav__block">
+                <button class="nav__button" onclick="nav.back()">
+                    <img src="/svg/back-arrow.svg" alt="back" class="nav__svg">
+                </button>
+                <button class="nav__button" onclick="nav.forward()">
+                    <img src="/svg/forward-arrow.svg" alt="forward" class="nav__svg">
+                </button>
+                <button class="nav__button" onclick="nav.reload()">
+                    <img src="/svg/round-arrow.svg" alt="reload" class="nav__svg">
+                </button>
+                <button class="nav__button" onclick="nav.home()">
+                     <img src="/svg/home-arrow.svg" alt="home" class="nav__svg">
+                </button>                        
+            </div>
+            <input type="url" id="urlInput" class="nav__input" placeholder="example:  http://localhost:3000">
+            <div class="nav__block">
+                <button class="nav__button" onclick="nav.goTo()">
+                    <img src="/svg/go-to-arrow.svg" alt="go-to" class="nav__svg">
+                </button>  
+            </div>  
+        </div>
+    </div>
+</main> --}}
+
+{{!
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}
+
+<main>
+	<div class="main">
+        <div class="nav">
+            <div class="nav__block">
+                <button class="nav__button" id="back">
+                    <img src="/svg/back-arrow.svg" alt="back" class="nav__svg">
+                </button>
+                <button class="nav__button" id="forward">
+                    <img src="/svg/forward-arrow.svg" alt="forward" class="nav__svg">
+                </button>
+                <button class="nav__button" id="reload">
+                    <img src="/svg/round-arrow.svg" alt="reload" class="nav__svg">
+                </button>
+                <button class="nav__button" id="home">
+                     <img src="/svg/home-arrow.svg" alt="home" class="nav__svg">
+                </button>                        
+            </div>
+            <input type="url" id="input" class="nav__input" placeholder="example:  http://localhost:3000">
+            <div class="nav__block">
+                <button class="nav__button" id="go">
+                    <img src="/svg/go-to-arrow.svg" alt="go-to" class="nav__svg">
+                </button>  
+            </div>  
+        </div>
+    </div>
+</main>
